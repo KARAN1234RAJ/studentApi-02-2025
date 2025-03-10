@@ -7,7 +7,7 @@ require("./connectDB");
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello Server World!");
 });
 
 // Use user routes
